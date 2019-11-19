@@ -1,0 +1,60 @@
+.slider-pic {
+  height: 250px;
+  border: 4px solid #4281f5 !important;
+  filter: drop-shadow(0px 15px 10px #474747);
+  margin: 2.5% 0 2.5% 18.75%; }
+
+#slider-content {
+  display: grid; }
+
+.slider-container {
+  position: relative; }
+
+.slider-title {
+  font-family: "Baskerville";
+  color: black;
+  filter: drop-shadow(2px 4px 6px grey);
+  margin-left: 7.5%;
+  font-weight: bold; }
+
+.slider-paragraph {
+  width: 50%;
+  font-family: "Times New Roman";
+  font-weight: bolder;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Baskerville";
+  font-weight: bolder; }
+
+.interest-section {
+  vertical-align: baseline; }
+
+.static-slider {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: "Baskerville";
+  color: black;
+  font-size: 24px;
+  font-weight: bolder;
+  padding-right: 25px;
+  border-radius: 7px;
+  transition: width 2s; }
+
+.slider-container {
+  width: 50%;
+  background-color: #ddd;
+  margin: auto;
+  border: 3px solid black;
+  margin-top: 2%;
+  border-radius: 10px;
+  filter: drop-shadow(1px 1px 10px); }
+
+#beef_carbon {
+  width: 0%;
+  background-color: #f03535; }
+
+/*# sourceMappingURL=meatslider.css.map */
