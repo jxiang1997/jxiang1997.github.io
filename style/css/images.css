@@ -107,7 +107,7 @@
   width: 50%;
   float: right; }
 
-.image {
+.diet_image {
   display: block;
   width: 100%;
   height: 400px; }
@@ -131,27 +131,34 @@
   opacity: 1; }
 
 .burger-recipe-title {
-  color: #234099; }
+  color: #234099;
+  font-family: Georgia, serif; }
 
 .caesar-salad-recipe-title {
-  color: #2a04ff; }
+  color: #2a04ff;
+  font-family: Georgia, serif; }
 
 .cereal-recipe-title {
-  color: #3a1cff; }
+  color: #3a1cff;
+  font-family: Georgia, serif; }
 
 .chips-guac-recipe-title {
-  color: #617a9e; }
+  color: #617a9e;
+  font-family: Georgia, serif; }
 
 .egg-recipe-title {
-  color: #875869; }
+  color: #875869;
+  font-family: Georgia, serif; }
 
 .pizza-recipe-title {
-  color: #5a8581; }
+  color: #5a8581;
+  font-family: Georgia, serif; }
 
 .ingredients {
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 0%; }
+  margin-bottom: 0%;
+  font-family: Georgia, serif; }
 
 /*# sourceMappingURL=images.css.map */

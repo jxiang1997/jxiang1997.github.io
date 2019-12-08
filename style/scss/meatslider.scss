@@ -58,15 +58,13 @@ $low-environmental-impact: #26a706;
 }
 
 .slider-paragraph {
-    width: 50%;
+    width: 80%;
     font-family: $secondary-font;
-    font-weight: bolder;
     margin: auto;
     margin-top: 20px;
-    text-align: center;
+    margin-left: 10%;
     font-size: 14px;
     font-family: $secondary-font;
-    font-weight: bolder;
   }
 
 .slider-section {
@@ -118,18 +116,18 @@ $low-environmental-impact: #26a706;
 
   #poultry_carbon {
     width: 0%;
-    background-color: $low-environmental-impact;
+    background-color: $medium-environmental-impact;
   }
 
 
   #poultry_land_use {
     width: 0%;
-    background-color: $low-environmental-impact;
+    background-color: $medium-environmental-impact;
   }
 
   #poultry_water_use {
     width: 0%;
-    background-color: $low-environmental-impact;
+    background-color: $medium-environmental-impact;
   }
 
 
@@ -149,25 +147,11 @@ $low-environmental-impact: #26a706;
   }
 
 
-  #lamb_goat_carbon {
-    width: 0%;
-    background-color: $high-medium-environmental-impact;
-  }
-
-  #lamb_goat_land_use {
-    width: 0%;
-    background-color: $high-medium-environmental-impact;
-  }
-
-  #lamb_goat_water_use {
-    width: 0%;
-    background-color: $high-medium-environmental-impact;
-  }
 
 
   #dairy_carbon {
     width: 0%;
-    background-color: $high-medium-environmental-impact;
+    background-color: $medium-environmental-impact;
   }
 
   #dairy_land_use {
@@ -177,6 +161,20 @@ $low-environmental-impact: #26a706;
 
   #dairy_water_use {
     width: 0%;
-    background-color: $high-medium-environmental-impact;
+    background-color: $medium-environmental-impact;
   }
 
+  #vegetables_carbon {
+    width: 0%;
+    background-color: $low-environmental-impact;
+  }
+
+  #vegetables_land_use {
+    width: 0%;
+    background-color: $low-environmental-impact;
+  }
+
+  #vegetables_water_use {
+    width: 0%;
+    background-color: $low-environmental-impact;
+  }

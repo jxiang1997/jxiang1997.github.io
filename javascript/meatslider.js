@@ -23,10 +23,10 @@ $(document).ready(function() {
     var pork_water_use = $('#pork_water_use');
 
     // Lamb/Goat
-    var lamb_goat = $('#lamb_goat');
-    var lamb_goat_carbon = $('#lamb_goat_carbon');
-    var lamb_goat_land_use = $('#lamb_goat_land_use');
-    var lamb_goat_water_use = $('#lamb_goat_water_use');
+    var vegetables = $('#vegetables');
+    var vegetables_carbon = $('#vegetables_carbon');
+    var vegetables_land_use = $('#vegetables_land_use');
+    var vegetables_water_use = $('#vegetables_water_use');
 
     // Dairy
     var dairy = $('#dairy');
@@ -69,26 +69,25 @@ $(document).ready(function() {
             }
         }
 
-        slider(beef_carbon, beef, '90');
-        slider(beef_land_use, beef, '90');
-        slider(beef_water_use, beef, '90');
+        slider(beef_carbon, beef, '96');
+        slider(beef_land_use, beef, '89');
+        slider(beef_water_use, beef, '76.5');
 
-        slider(poultry_carbon, poultry, '40');
-        slider(poultry_land_use, poultry, '30');
-        slider(poultry_water_use, poultry, '10');
+        slider(poultry_carbon, poultry, '17');
+        slider(poultry_land_use, poultry, '2.5');
+        slider(poultry_water_use, poultry, '6.76');
 
-        slider(pork_carbon, pork, '50');
-        slider(pork_land_use, pork, '50');
-        slider(pork_water_use, pork, '50');
+        slider(pork_carbon, pork, '20');
+        slider(pork_land_use, pork, '3.2');
+        slider(pork_water_use, pork, '8.7');
 
+        slider(dairy_carbon, dairy, '19');
+        slider(dairy_land_use, dairy, '5');
+        slider(dairy_water_use, dairy, '8');
 
-        slider(lamb_goat_carbon, lamb_goat, '70');
-        slider(lamb_goat_land_use, pork, '70');
-        slider(lamb_goat_water_use, pork, '70');
-
-        slider(dairy_carbon, dairy, '80');
-        slider(dairy_land_use, pork, '80');
-        slider(dairy_water_use, pork, '80');
+        slider(vegetables_carbon, vegetables, '3');
+        slider(vegetables_land_use, vegetables, '1');
+        slider(vegetables_water_use, vegetables, '2.3');
 
     })
 

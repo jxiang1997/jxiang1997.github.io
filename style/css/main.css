@@ -1,6 +1,12 @@
 .sub-title {
   color: black;
-  font-size: 40px; }
+  font-size: 40px;
+  font-family: Georgia, serif; }
+
+.sub-title-2 {
+  color: #7e001b;
+  font-size: 40px;
+  font-family: Georgia, serif; }
 
 .carbon-emission {
   color: white;

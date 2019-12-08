@@ -8,7 +8,7 @@
 
 <!-- BOOTSTRAP NAVBAR-->
 <head>
-        <title>Bootstrap Example</title>
+        <title>Edible Carbon</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -26,7 +26,7 @@
 <link rel="stylesheet" href="./style/css/main.css">
 <link rel="stylesheet" href="./style/css/images.css">
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Edible Carbon</a>
@@ -34,7 +34,7 @@
           <ul class="nav navbar-nav">
             <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/index.html">Home</a></li>
             <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/diet.html">Carbon Footprint of Your Diet</a></li>
-            <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/meatslider.html">Environmental Impact of Various Meat and Dairy</a></li>
+            <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/meatslider.html">Environmental Impact of Meat, Dairy and Vegetables</a></li>
             <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/calculations.html">Methodology and Calculations</a></li>
             <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/about.html">About the Website</a></li>
           </ul>
@@ -44,12 +44,15 @@
 <body> 
         <div class="section" id="meatslider">
             <h2 class='sub-title'>
-                <center>Environmental Impact of Various Meats and Dairy</center>
+                <center>Environmental Impact of Meat, Dairy and Vegetables</center>
             </h2>
-            <p>
+            <p class = slider-paragraph>
                 When thinking about the environmental impact of different types of meat, it is important we think beyond just carbon emissions.
                 In addition to green house gas emissions stemming from livestock and the animal agriculture industry as a whole, we need to also consider land use. 
                 Livestock covers roughly 45% of the earth's total land, it is highly plausible that more efficient use of land would allow for potential reforestation and implementation of carbon sequestration.
+            </p>
+            <p class = slider-paragraph>
+                In this section of the website, we proceed to understand the environmental impact of beef, poultry, pork, and dairy.
             </p>
         
             <div id="slider-content">
@@ -57,37 +60,45 @@
                     <h3 class = 'slider-title'>
                         Beef
                     </h3>
+                    <p class="slider-paragraph">
+                        &bull; Beef requires 28 times the land and 11 times the irrigation water as compared to protein calories sourced from dairy, poultry and pork. 
+                        Beef also results in 5 times the production of greenhouse gases, and puts 6 times the average reactive nitrogen load into the environment. (ESHEL 2014)
+                    </p>
                     <div class = 'slider-section'>
                         <h3 class = 'slider-subtitle-greenhouse'>
-                            Greenhouse Gas Emissions
+                            Greenhouse Gas Emissions (kg CO<sub>2</sub> equivalent per 1000 dietary calories)
                         </h3>
                         <div class="slider-container">
-                            <div class="static-slider" id="beef_carbon">9</div>
+                            <div class="static-slider" id="beef_carbon">9.6</div>
                         </div>
                         <p class="slider-paragraph">
-                            Beef is not great for the environment
+                            &bull; Beef production contributes 2.9 gigatonnes CO<sub>2</sub> equivalent, 40% of the livestock sector's total emissions<sup><a href="#note1">1</a></sup>. <br>
+                            &bull; Enteric fermentation, the cow's digestive process, represents 43% of total emissions in beef supply chains<sup><a href="#note2">1</a></sup>. <br>
+                            &bull; Beef production alone contributes to around 4% of total US greenhouse gas emissions (ESHEL 2016)
                         </p>
                     </div>
                     <div class = 'slider-section'>
                         <h3 class = 'slider-subtitle-land-use'>
-                            Land Use
+                            Land Use (Square meters used to produce 1000 dietary calories)
                         </h3>
                         <div class="slider-container">
-                            <div class="static-slider" id="beef_land_use">9</div>
+                            <div class="static-slider" id="beef_land_use">146.6</div>
                         </div>
                         <p class="slider-paragraph">
-                            Beef is not great for the environment
+                            &bull; Within current US food system, beef cattle consume 21% of grain and soy concentrates, 92% of pasture, and 87% of processed roughage<sup><a href="#note1">3</a></sup> (ESHEL 2015). <br>
+                            &bull; Beef alone accounts for ~88% of all U.S. land used to produce animal-based calories
                         </p>
                     </div>
                     <div class = 'slider-section'>
                         <h3 class = 'slider-subtitle-water-use'>
-                            Water Use
+                            Water Use (Liters used per 1000 dietary calories)
                         </h3>
                         <div class="slider-container">
-                            <div class="static-slider" id="beef_water_use">9</div>
+                            <div class="static-slider" id="beef_water_use">1642</div>
                         </div>
                         <p class="slider-paragraph">
-                            Beef is not great for the environment
+                            &bull; 2500 gallons of water are needed to produce 1 pound of beef<sup><a href="#note5">2</a></sup>. <br>
+                            &bull; Beef cattle are inefficient at converting feed into muscle and fat. Thus, the large quantity of crops needed to feed cattle makes beef the most water intensive livestock category.   
                         </p>
                     </div>
                 </div>
@@ -100,37 +111,43 @@
                     <h3 class = 'slider-title'>
                         Poultry
                     </h3>
+                    <p class="slider-paragraph">
+                        &bull; Of beef, pork and poultry (chicken), poultry has the lowest feed conversion ratio, amount of feed necessary to produce 1 kg of meat. <br>
+                        &bull; As a result of this and lower methane emissions, poultry is more sustainable to consume than pork or cattle.
+                    </p>
                     <div class = 'slider-section'>
                         <h3 class = 'slider-subtitle-greenhouse'>
-                            Greenhouse Gas Emissions
-                        </h3>
+                            Greenhouse Gas Emissions (kg CO<sub>2</sub> equivalent per 1000 dietary calories)                        </h3>
                         <div class="slider-container">
-                            <div class="static-slider" id="poultry_carbon">4</div>
+                            <div class="static-slider" id="poultry_carbon">1.7</div>
                         </div>
                         <p class="slider-paragraph">
-                            Poultry is better
+                            &bull; Greenhouse gas emissions from the poultry industry is primariy from feed supply and the utilization of fossil fuels for mobile (trucks and tractors) or stationary (furnaces or incinerators) combustion units. <br>
+                            &bull; Poultry are monogastric animals with a simple stomach where little microbial fermentation takes place. As a result, they rpoduce significanlty less methane than cattle (polygastric with a four compartment stomach) <sup><a href="#note4">4</a></sup>. <br>
+                            &bull; Poultry is responsible for ~7.2 million tonnes of nutrogen fertilizer use to feed production.
                         </p>
                     </div>
                     <div class = 'slider-section'>
                         <h3 class = 'slider-subtitle-land-use'>
-                            Land Use
+                            Land Use (Square meters used to produce 1000 dietary calories)
                         </h3>
                         <div class="slider-container">
-                            <div class="static-slider" id="poultry_land_use">3</div>
+                            <div class="static-slider" id="poultry_land_use">4.1</div>
                         </div>
                         <p class="slider-paragraph">
-                            Poultry uses significantly less land
+                            &bull; Poultry uses significantly less land than beef. This is largely due to Poultry's lower feed conversion ratio. Chickens need to consume 2 kg of grain to produce 1 kg of meat, beef need 10 <sup><a href="#note6">6</a></sup>.
                         </p>
                     </div>
                     <div class = 'slider-section'>
                         <h3 class = 'slider-subtitle-water-use'>
-                            Water Use
+                            Water Use (Liters used per 1000 dietary calories)
                         </h3>
                         <div class="slider-container">
-                            <div class="static-slider" id="poultry_water_use">1</div>
+                            <div class="static-slider" id="poultry_water_use">145</div>
                         </div>
                         <p class="slider-paragraph">
-                            Poultry does not use a lot of water
+                            &bull; Water use of poultry is primarily determined by feed conversion efficiency. <br>
+                            &bull; Feed conversion is lowest for industrial farms and is followed by mixed systems. Grazying farms are the least efficient type of feed conversion system.
                         </p>
                     </div>
                 </div>
@@ -144,34 +161,37 @@
                     <h3 class = 'slider-title'>
                         Pork
                     </h3>
+                    <p class="slider-paragraph">
+                        &bull; Pork is a more sustainable protein than beef. This is due to a lower feed conversion ratio and also because pigs do not have a rumen and thus produce less methane. <br>
+                    </p>
                     <div class = 'slider-section'>
                             <h3 class = 'slider-subtitle-greenhouse'>
-                                Greenhouse Gas Emissions
-                            </h3>
+                                Greenhouse Gas Emissions (kg CO<sub>2</sub> equivalent per 1000 dietary calories)                        </h3>
                             <div class="slider-container">
-                                <div class="static-slider" id="pork_carbon">5</div>
+                                <div class="static-slider" id="pork_carbon">2</div>
                             </div>
                             <p class="slider-paragraph">
-                                Pork is better
+                                &bull; In the pork supply chain, the bulk of greenhouse gas emissions are related to feed supply and manure storage in processing <sup><a href="#note6">7</a></sup>.
                             </p>
                     </div>
                     <div class = 'slider-section'>
                         <h3 class = 'slider-subtitle-land-use'>
-                            Land Use
+                            Land Use (Square meters used to produce 1000 dietary calories)
                         </h3>
                         <div class="slider-container">
-                            <div class="static-slider" id="pork_land_use">5</div>
+                            <div class="static-slider" id="pork_land_use">5.3</div>
                         </div>
                         <p class="slider-paragraph">
-                            Pork uses significantly less land
+                            &bull; Feed production is the largest contributor to land use in the pork production process. Pork is less efficient at converting feed than chickens, but more efficient than beef. Pigs need to consume 4 kg of grain to produce 1 kg of meat, beef need 10. <br>
+                            &bull; In a conventional pork productino facility, the average area needed per pig throughout the production phase os ~2.4m<sup>2</sup> <sup><a href="#note8">8</a></sup>.
                         </p>
                     </div>
                     <div class = 'slider-section'>
                         <h3 class = 'slider-subtitle-water-use'>
-                            Water Use
+                            Water Use (Liters used per 1000 dietary calories)
                         </h3>
                         <div class="slider-container">
-                            <div class="static-slider" id="pork_water_use">5</div>
+                            <div class="static-slider" id="pork_water_use">187</div>
                         </div>
                         <p class="slider-paragraph">
                             Poultry does not use a lot of water
@@ -180,49 +200,6 @@
                 </div>
             </div>
         
-            <hr color="000000" size="15">
-        
-        
-            <div id="slider-content">
-                <div class="slider" id="lamb_goat">
-                    <h3 class = 'slider-title'>
-                        Lamb / Goat
-                    </h3>
-                    <div class = 'slider-section'>
-                            <h3 class = 'slider-subtitle-greenhouse'>
-                                Greenhouse Gas Emissions
-                            </h3>
-                            <div class="slider-container">
-                                <div class="static-slider" id="lamb_goat_carbon">7</div>
-                            </div>
-                            <p class="slider-paragraph">
-                                Lamb/Goat is better
-                            </p>
-                    </div>
-                    <div class = 'slider-section'>
-                        <h3 class = 'slider-subtitle-land-use'>
-                            Land Use
-                        </h3>
-                        <div class="slider-container">
-                            <div class="static-slider" id="lamb_goat_land_use">7</div>
-                        </div>
-                        <p class="slider-paragraph">
-                            Lamb/Goat uses significantly less land
-                        </p>
-                    </div>
-                    <div class = 'slider-section'>
-                        <h3 class = 'slider-subtitle-water-use'>
-                            Water Use
-                        </h3>
-                        <div class="slider-container">
-                            <div class="static-slider" id="lamb_goat_water_use">7</div>
-                        </div>
-                        <p class="slider-paragraph">
-                            Lamb/Goat does not use a lot of water
-                        </p>
-                    </div>
-                </div>
-            </div>
         
             <hr color="000000" size="15">
         
@@ -233,40 +210,97 @@
                     </h3>
                     <div class = 'slider-section'>
                             <h3 class = 'slider-subtitle-greenhouse'>
-                                Greenhouse Gas Emissions
+                                Greenhouse Gas Emissions (kg CO<sub>2</sub> equivalent per 1000 dietary calories)                        </h3>
                             </h3>
                             <div class="slider-container">
-                                <div class="static-slider" id="dairy_carbon">8</div>
+                                <div class="static-slider" id="dairy_carbon">1.9</div>
                             </div>
                             <p class="slider-paragraph">
-                                Dairy is slightly better
+                                &bull; Dairy is more similar to poultry or pork in terns of greenhouse gas emissions than beef cattle.
                             </p>
                     </div>
                     <div class = 'slider-section'>
                         <h3 class = 'slider-subtitle-land-use'>
-                            Land Use
+                            Land Use (Square meters used to produce 1000 dietary calories)
                         </h3>
                         <div class="slider-container">
-                            <div class="static-slider" id="dairy_land_use">8</div>
+                            <div class="static-slider" id="dairy_land_use">8.7</div>
                         </div>
                         <p class="slider-paragraph">
-                            Dairy uses almost as much land
+                            &bull; Dairy cows consume a greater proportion of concentrated feed while beef cattle consume a larger share of pasture and processed roughage (hay and silage). This disceprancy means that dairy cows place less of a burden on the land. <br>
                         </p>
                     </div>
                     <div class = 'slider-section'>
                         <h3 class = 'slider-subtitle-water-use'>
-                            Water Use
+                            Water Use (Liters used per 1000 dietary calories)
                         </h3>
                         <div class="slider-container">
-                            <div class="static-slider" id="dairy_water_use">8</div>
+                            <div class="static-slider" id="dairy_water_use">171</div>
                         </div>
                         <p class="slider-paragraph">
-                            Production of dairy also uses a lot of water
+                            &bull; 1000 gallons of water are required to produce 1 gallon of milk, and almost 900 gallons of water are needed for 1lb of cheese <sup>9</sup> <sup><a href="#note9">9</a></sup>.
                         </p>
                     </div>
                 </div>
             </div>
         
             <hr color="000000" size="15">
+
+            <div id="slider-content">
+                <div class="slider" id="vegetables">
+                    <h3 class = 'slider-title'>
+                        Vegetables
+                    </h3>
+                    <p class="slider-paragraph">
+                        &bull; From an environmental standpoint, a vegan diet or diet primarily consisting of plant-based proteins is much more sustainable and significantly reduces your diet's impact on greenhouse gas emissions, land use and water use. <br>
+                        &bull; A person who follows a vegan diet produces the equivalent of 50% less carbon dioxide, 1/13<sup>th</sup> water, and 1/18<sup>th</sup> land compared to a meat-lover for their food  <sup><a href="#note10">10</a></sup>. <br>
+                        &bull; Each day, a person who eats a vegan diet saves 1100 gallons of water, 45 pounds of grain, 20 lbs of carbon dioxide equivalent <sup><a href="#note10">10</a></sup>. <br>
+                    </p>
+                    <div class = 'slider-section'>
+                            <h3 class = 'slider-subtitle-greenhouse'>
+                                Greenhouse Gas Emissions (kg CO<sub>2</sub> equivalent per 1000 dietary calories)                        </h3>
+                            </h3>
+                            <div class="slider-container">
+                                <div class="static-slider" id="vegetables_carbon">0.3</div>
+                            </div>
+
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-land-use'>
+                            Land Use (Square meters used to produce 1000 dietary calories)
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="vegetables_land_use">1.7</div>
+                        </div>
+
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-water-use'>
+                            Water Use (Liters used per 1000 dietary calories)
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="vegetables_water_use">50</div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
+
+            </div>
+
+            <h3 class = 'slider-title'>
+                Footnotes and References
+            </h3>
+            <p id="note1"><sup>1</sup><a href="http://www.fao.org/3/i3437e/i3437e.pdf" target="_blank"> http://www.fao.org/3/i3437e/i3437e.pdf</a></p>
+            <p id="note2"><sup>2</sup><a href="http://www.fao.org/3/i3437e/i3437e.pdf" target="_blank"> http://www.fao.org/3/i3437e/i3437e.pdf</a></p>
+            <p id="note4"><sup>4</sup><a href="https://extension.uga.edu/publications/detail.html?number=B1382&title=Global%20Warming:%20How%20Does%20It%20Relate%20to%20Poultry?#title3" target="_blank"> https://extension.uga.edu/publications/detail.html?number=B1382&title=Global%20Warming:%20How%20Does%20It%20Relate%20to%20Poultry?#title3</a></p>
+ 
+            <p id="note5"><sup>5</sup><a href="http://www.earthsave.org/environment/water.htm" target="_blank"> http://www.earthsave.org/environment/water.htm</a></p>
+            <p id="note5"><sup>6</sup><a href="https://www.ucsusa.org/resources/grade-choice" target="_blank"> https://www.ucsusa.org/resources/grade-choice</a></p>
+            <p id="note7"><sup>7</sup><a href="http://www.fao.org/news/story/en/item/197623/icode/" target="_blank"> http://www.fao.org/news/story/en/item/197623/icode/</a></p>
+            <p id="note8"><sup>8</sup><a href="https://www.porkcdn.com/sites/research/ResearchDocuments/13-208-Thoma-UofARK.pdf" target="_blank"> https://www.porkcdn.com/sites/research/ResearchDocuments/13-208-Thoma-UofARK.pdf</a></p>
+            <p id="note9"><sup>9</sup><a href="https://www.cowspiracy.com/facts" target="_blank"> https://www.cowspiracy.com/facts</a></p>
+            <p id="note10"><sup>10</sup><a href="https://www.cowspiracy.com/facts" target="_blank"> https://www.cowspiracy.com/facts</a></p>
+
+
             </body>

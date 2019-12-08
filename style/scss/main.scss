@@ -1,8 +1,17 @@
 
+$secondary-font: Georgia, serif;
 
 .sub-title {
     color: black;
     font-size: 40px;
+    font-family: $secondary-font;
+
+}
+
+.sub-title-2 {
+    color: rgb(126, 0, 27);
+    font-size: 40px;
+    font-family: $secondary-font;
 }
 
 .carbon-emission{
