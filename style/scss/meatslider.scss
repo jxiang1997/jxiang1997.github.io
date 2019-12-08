@@ -1,9 +1,15 @@
-$secondary-font: 'Baskerville';
-$subtitle-color: black;
+$secondary-font: Georgia, serif;
+$title-color: black;
+$greenhouse-color: #0c7408;
+$land-use-color: #533e05;
+$water-use-color: #090ddf;
 $border-color: #4281f5;
 $high-environmental-impact: #f03535;
+$high-medium-environmental-impact: #f08035;
 $medium-environmental-impact: #ffff00;
 $low-environmental-impact: #26a706;
+
+  
 
 .slider-pic{
     height: 250px;
@@ -14,6 +20,7 @@ $low-environmental-impact: #26a706;
 
 #slider-content{
     display: grid;
+    opacity: 1 !important;
 }
 
 .slider-container {
@@ -22,32 +29,55 @@ $low-environmental-impact: #26a706;
 
 .slider-title {
     font-family: $secondary-font;
-    color: $subtitle-color;
-    filter: drop-shadow(2px 4px 6px grey);
+    color: $title-color;
     margin-left: 7.5%;
+    font-size: 25px;
+    text-align: center;
     font-weight: bold;
+}
+
+.slider-subtitle-greenhouse{
+    font-family: $secondary-font;
+    color: $greenhouse-color;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+.slider-subtitle-land-use{
+  font-family: $secondary-font;
+  color: $land-use-color;
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+.slider-subtitle-water-use{
+  font-family: $secondary-font;
+  color: $water-use-color;
+  margin-left: 10%;
+  font-weight: bold;
 }
 
 .slider-paragraph {
     width: 50%;
-    font-family: "Times New Roman";
+    font-family: $secondary-font;
     font-weight: bolder;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     font-family: $secondary-font;
     font-weight: bolder;
   }
 
-.interest-section {
+.slider-section {
     vertical-align: baseline;
+    opacity: 1 !important;
   }
   
 .static-slider {
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: white;
     font-family: $secondary-font;
     color: black;
@@ -72,6 +102,81 @@ $low-environmental-impact: #26a706;
     width: 0%;
     background-color: $high-environmental-impact;
   }
-  
 
   
+  #beef_land_use {
+    width: 0%;
+    background-color: $high-environmental-impact;
+  }
+
+
+  #beef_water_use {
+    width: 0%;
+    background-color: $high-environmental-impact;
+  }
+
+
+  #poultry_carbon {
+    width: 0%;
+    background-color: $low-environmental-impact;
+  }
+
+
+  #poultry_land_use {
+    width: 0%;
+    background-color: $low-environmental-impact;
+  }
+
+  #poultry_water_use {
+    width: 0%;
+    background-color: $low-environmental-impact;
+  }
+
+
+  #pork_carbon {
+    width: 0%;
+    background-color: $medium-environmental-impact;
+  }
+
+  #pork_land_use {
+    width: 0%;
+    background-color: $medium-environmental-impact;
+  }
+
+  #pork_water_use {
+    width: 0%;
+    background-color: $medium-environmental-impact;
+  }
+
+
+  #lamb_goat_carbon {
+    width: 0%;
+    background-color: $high-medium-environmental-impact;
+  }
+
+  #lamb_goat_land_use {
+    width: 0%;
+    background-color: $high-medium-environmental-impact;
+  }
+
+  #lamb_goat_water_use {
+    width: 0%;
+    background-color: $high-medium-environmental-impact;
+  }
+
+
+  #dairy_carbon {
+    width: 0%;
+    background-color: $high-medium-environmental-impact;
+  }
+
+  #dairy_land_use {
+    width: 0%;
+    background-color: $high-medium-environmental-impact;
+  }
+
+  #dairy_water_use {
+    width: 0%;
+    background-color: $high-medium-environmental-impact;
+  }
+

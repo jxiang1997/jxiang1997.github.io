@@ -1,0 +1,185 @@
+
+/* relevant styles */
+/* relevant styles */
+
+
+  .overlay_one {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgb(132, 108, 250);
+  }
+
+  .overlay_two {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(83, 132, 255);
+  }
+
+  .overlay_three {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1CC6FF;
+  }
+
+  .overlay_four {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #97FBD1;
+  }
+
+  .overlay_five {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#F6A4EC;
+  }
+
+  .overlay_six {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #C7CEEA;
+  }
+
+  #container {
+    position: relative;
+    width: 80%;
+    height: 40%;
+}
+
+  .container_picture_one {
+    position: relative;
+    width: 50%;
+    float: left;
+  }
+
+  .container_picture_two {
+    position: relative;
+    width: 50%;
+    float: right;
+  }
+
+  .container_picture_three {
+    position: relative;
+    width: 50%;
+    float: left;
+  }
+
+  .container_picture_four {
+    position: relative;
+    width: 50%;
+    float: right;
+  }
+
+  .container_picture_five {
+    position: relative;
+    width: 50%;
+    float: left;
+  }
+
+  .container_picture_six {
+    position: relative;
+    width: 50%;
+    float: right;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 400px;  }
+
+  .container_picture_one:hover .overlay_one {
+    opacity: 1;
+  }
+
+  .container_picture_two:hover .overlay_two {
+    opacity: 1;
+  }
+
+  .container_picture_three:hover .overlay_three {
+    opacity: 1;
+  }
+
+  .container_picture_four:hover .overlay_four {
+    opacity: 1;
+  }
+
+  .container_picture_five:hover .overlay_five {
+    opacity: 1;
+  }
+
+  .container_picture_six:hover .overlay_six {
+    opacity: 1;
+  }
+
+  .burger-recipe-title{
+    color: #234099;
+  }
+
+  .caesar-salad-recipe-title{
+    color: #2a04ff;
+  }
+
+  .cereal-recipe-title{
+      color: #3a1cff;
+  }
+
+  .chips-guac-recipe-title{
+    color:#617a9e;
+  }
+
+  .egg-recipe-title{
+      color: #875869;
+  }
+
+  .pizza-recipe-title{
+    color: #5a8581;
+  }
+
+  .ingredients{
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 0%;
+  }
+

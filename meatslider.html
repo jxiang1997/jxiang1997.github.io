@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- BOOTSTRAP NAVBAR-->
+<head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<!-- javascript -->
+<script src='./javascript/meatslider.js'></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- style -->
+<link rel="stylesheet" href="./style/css/meatslider.css">
+<link rel="stylesheet" href="./style/css/main.css">
+<link rel="stylesheet" href="./style/css/images.css">
+
+<nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Edible Carbon</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/index.html">Home</a></li>
+            <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/diet.html">Carbon Footprint of Your Diet</a></li>
+            <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/meatslider.html">Environmental Impact of Various Meat and Dairy</a></li>
+            <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/calculations.html">Methodology and Calculations</a></li>
+            <li><a href="file:///Users/jxiang/jxiang1997.github.io/jxiang1997.github.io/about.html">About the Website</a></li>
+          </ul>
+        </div>
+</nav>
+
+<body> 
+        <div class="section" id="meatslider">
+            <h2 class='sub-title'>
+                <center>Environmental Impact of Various Meats and Dairy</center>
+            </h2>
+            <p>
+                When thinking about the environmental impact of different types of meat, it is important we think beyond just carbon emissions.
+                In addition to green house gas emissions stemming from livestock and the animal agriculture industry as a whole, we need to also consider land use. 
+                Livestock covers roughly 45% of the earth's total land, it is highly plausible that more efficient use of land would allow for potential reforestation and implementation of carbon sequestration.
+            </p>
+        
+            <div id="slider-content">
+                <div class="slider" id="beef">
+                    <h3 class = 'slider-title'>
+                        Beef
+                    </h3>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-greenhouse'>
+                            Greenhouse Gas Emissions
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="beef_carbon">9</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Beef is not great for the environment
+                        </p>
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-land-use'>
+                            Land Use
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="beef_land_use">9</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Beef is not great for the environment
+                        </p>
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-water-use'>
+                            Water Use
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="beef_water_use">9</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Beef is not great for the environment
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <hr color="000000" size="15">
+        
+            <div id="slider-content">
+                <div class="slider" id="poultry">
+                    <h3 class = 'slider-title'>
+                        Poultry
+                    </h3>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-greenhouse'>
+                            Greenhouse Gas Emissions
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="poultry_carbon">4</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Poultry is better
+                        </p>
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-land-use'>
+                            Land Use
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="poultry_land_use">3</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Poultry uses significantly less land
+                        </p>
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-water-use'>
+                            Water Use
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="poultry_water_use">1</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Poultry does not use a lot of water
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <hr color="000000" size="15">
+        
+        
+            <div id="slider-content">
+                <div class="slider" id="pork">
+                    <h3 class = 'slider-title'>
+                        Pork
+                    </h3>
+                    <div class = 'slider-section'>
+                            <h3 class = 'slider-subtitle-greenhouse'>
+                                Greenhouse Gas Emissions
+                            </h3>
+                            <div class="slider-container">
+                                <div class="static-slider" id="pork_carbon">5</div>
+                            </div>
+                            <p class="slider-paragraph">
+                                Pork is better
+                            </p>
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-land-use'>
+                            Land Use
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="pork_land_use">5</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Pork uses significantly less land
+                        </p>
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-water-use'>
+                            Water Use
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="pork_water_use">5</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Poultry does not use a lot of water
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <hr color="000000" size="15">
+        
+        
+            <div id="slider-content">
+                <div class="slider" id="lamb_goat">
+                    <h3 class = 'slider-title'>
+                        Lamb / Goat
+                    </h3>
+                    <div class = 'slider-section'>
+                            <h3 class = 'slider-subtitle-greenhouse'>
+                                Greenhouse Gas Emissions
+                            </h3>
+                            <div class="slider-container">
+                                <div class="static-slider" id="lamb_goat_carbon">7</div>
+                            </div>
+                            <p class="slider-paragraph">
+                                Lamb/Goat is better
+                            </p>
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-land-use'>
+                            Land Use
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="lamb_goat_land_use">7</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Lamb/Goat uses significantly less land
+                        </p>
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-water-use'>
+                            Water Use
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="lamb_goat_water_use">7</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Lamb/Goat does not use a lot of water
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <hr color="000000" size="15">
+        
+            <div id="slider-content">
+                <div class="slider" id="dairy">
+                    <h3 class = 'slider-title'>
+                        Dairy
+                    </h3>
+                    <div class = 'slider-section'>
+                            <h3 class = 'slider-subtitle-greenhouse'>
+                                Greenhouse Gas Emissions
+                            </h3>
+                            <div class="slider-container">
+                                <div class="static-slider" id="dairy_carbon">8</div>
+                            </div>
+                            <p class="slider-paragraph">
+                                Dairy is slightly better
+                            </p>
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-land-use'>
+                            Land Use
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="dairy_land_use">8</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Dairy uses almost as much land
+                        </p>
+                    </div>
+                    <div class = 'slider-section'>
+                        <h3 class = 'slider-subtitle-water-use'>
+                            Water Use
+                        </h3>
+                        <div class="slider-container">
+                            <div class="static-slider" id="dairy_water_use">8</div>
+                        </div>
+                        <p class="slider-paragraph">
+                            Production of dairy also uses a lot of water
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <hr color="000000" size="15">
+            </div>
+            </body>

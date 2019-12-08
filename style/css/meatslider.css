@@ -5,38 +5,59 @@
   margin: 2.5% 0 2.5% 18.75%; }
 
 #slider-content {
-  display: grid; }
+  display: grid;
+  opacity: 1 !important; }
 
 .slider-container {
   position: relative; }
 
 .slider-title {
-  font-family: "Baskerville";
+  font-family: Georgia, serif;
   color: black;
-  filter: drop-shadow(2px 4px 6px grey);
   margin-left: 7.5%;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold; }
+
+.slider-subtitle-greenhouse {
+  font-family: Georgia, serif;
+  color: #0c7408;
+  margin-left: 10%;
+  font-weight: bold; }
+
+.slider-subtitle-land-use {
+  font-family: Georgia, serif;
+  color: #533e05;
+  margin-left: 10%;
+  font-weight: bold; }
+
+.slider-subtitle-water-use {
+  font-family: Georgia, serif;
+  color: #090ddf;
+  margin-left: 10%;
   font-weight: bold; }
 
 .slider-paragraph {
   width: 50%;
-  font-family: "Times New Roman";
+  font-family: Georgia, serif;
   font-weight: bolder;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
-  font-size: 18px;
-  font-family: "Baskerville";
+  font-size: 14px;
+  font-family: Georgia, serif;
   font-weight: bolder; }
 
 .slider-section {
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  opacity: 1 !important; }
 
 .static-slider {
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: white;
-  font-family: "Baskerville";
+  font-family: Georgia, serif;
   color: black;
   font-size: 24px;
   font-weight: bolder;
@@ -56,5 +77,61 @@
 #beef_carbon {
   width: 0%;
   background-color: #f03535; }
+
+#beef_land_use {
+  width: 0%;
+  background-color: #f03535; }
+
+#beef_water_use {
+  width: 0%;
+  background-color: #f03535; }
+
+#poultry_carbon {
+  width: 0%;
+  background-color: #26a706; }
+
+#poultry_land_use {
+  width: 0%;
+  background-color: #26a706; }
+
+#poultry_water_use {
+  width: 0%;
+  background-color: #26a706; }
+
+#pork_carbon {
+  width: 0%;
+  background-color: #ffff00; }
+
+#pork_land_use {
+  width: 0%;
+  background-color: #ffff00; }
+
+#pork_water_use {
+  width: 0%;
+  background-color: #ffff00; }
+
+#lamb_goat_carbon {
+  width: 0%;
+  background-color: #f08035; }
+
+#lamb_goat_land_use {
+  width: 0%;
+  background-color: #f08035; }
+
+#lamb_goat_water_use {
+  width: 0%;
+  background-color: #f08035; }
+
+#dairy_carbon {
+  width: 0%;
+  background-color: #f08035; }
+
+#dairy_land_use {
+  width: 0%;
+  background-color: #f08035; }
+
+#dairy_water_use {
+  width: 0%;
+  background-color: #f08035; }
 
 /*# sourceMappingURL=meatslider.css.map */
