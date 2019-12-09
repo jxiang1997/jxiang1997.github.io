@@ -186,6 +186,17 @@ p.side-text{
     font-weight: bold;
     font-size: 62pt !important ;
     color: black;}
+
+.top-left-2 {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: $primary-font !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 62pt !important ;
+    color: black;}
       
 
   .img{

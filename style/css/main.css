@@ -45,6 +45,13 @@ p.main-text {
   margin-right: 10%;
   color: black !important; }
 
+p.side-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16pt;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black !important; }
+
 .carbon-emission {
   color: white;
   font-size: 40px; }
@@ -147,6 +154,17 @@ p.main-text {
   position: absolute;
   top: 15%;
   left: 15%;
+  transform: translate(-50%, -50%);
+  font-family: "Julius Sans One", sans-serif !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 62pt !important;
+  color: black; }
+
+.top-left-2 {
+  position: absolute;
+  top: 15%;
+  left: 30%;
   transform: translate(-50%, -50%);
   font-family: "Julius Sans One", sans-serif !important;
   text-transform: uppercase;
