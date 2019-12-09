@@ -1,4 +1,6 @@
-$secondary-font: Georgia, serif;
+$primary-font: Julius Sans One;
+$secondary-font: 'Archivo Narrow', sans-serif;
+
 $title-color: black;
 $greenhouse-color: #0c7408;
 $land-use-color: #533e05;
@@ -30,31 +32,45 @@ $low-environmental-impact: #26a706;
 .slider-title {
     font-family: $secondary-font;
     color: $title-color;
-    margin-left: 7.5%;
-    font-size: 25px;
-    text-align: center;
+    text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-size: 24pt;
 }
 
 .slider-subtitle-greenhouse{
     font-family: $secondary-font;
     color: $greenhouse-color;
-    margin-left: 10%;
+    text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-size: 24pt;
 }
 
 .slider-subtitle-land-use{
   font-family: $secondary-font;
   color: $land-use-color;
-  margin-left: 10%;
+  text-transform: uppercase;
   font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%; 
+  font-size: 24pt;
 }
 
 .slider-subtitle-water-use{
   font-family: $secondary-font;
   color: $water-use-color;
-  margin-left: 10%;
+  text-transform: uppercase;
   font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%; 
+  font-size: 24pt;
 }
 
 .slider-paragraph {
@@ -66,6 +82,8 @@ $low-environmental-impact: #26a706;
     font-size: 14px;
     font-family: $secondary-font;
   }
+
+
 
 .slider-section {
     vertical-align: baseline;
@@ -93,7 +111,6 @@ $low-environmental-impact: #26a706;
     border: 3px solid black;
     margin-top: 2%;
     border-radius: 10px;
-    filter: drop-shadow(1px 1px 10px);
   }
 
   #beef_carbon {

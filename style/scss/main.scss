@@ -1,20 +1,134 @@
 
+$primary-font: 'Julius Sans One', sans-serif;
+$second-font: 'Archivo Narrow', sans-serif;
+$third-font: 'Source Sans Pro', sans-serif;
+
 $secondary-font: Georgia, serif;
 
+.title{
+    font-family: $primary-font;
+    font-size: 62pt;
+}
 .sub-title {
     color: black;
-    font-size: 40px;
-    font-family: $secondary-font;
+    font-size: 62pt;
+    font-family: $primary-font !important;
 
 }
 
-.sub-title-2 {
-    color: rgb(126, 0, 27);
-    font-size: 40px;
-    font-family: $secondary-font;
+.h1{
+    font-family: $primary-font;
+    margin-top: 20pt;
+    font-size: 62pt;
+}
+
+.test{
+    font-family: $primary-font;
+    font-size: 62pt;
+    margin-top: 10%;
+
+}
+
+
+h2.main-title {
+    color: rgb(0, 0, 0);
+    font-size: 62pt;
+    font-family: $primary-font !important;
+    text-transform: uppercase;
+}
+
+h2.main-title-2 {
+    color: rgb(126, 0, 0);
+    font-size: 62pt;
+    font-family: $primary-font !important;
+    text-transform: uppercase;
+}
+
+h3.sub-title {
+    font-size: 24pt;
+    font-family: $second-font !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p.main-text{
+    font-family: $third-font;
+    font-size: 16pt;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .carbon-emission{
     color: rgb(255, 255, 255);
     font-size: 40px;
 }
+
+.cheeseburger{
+    font-family: $second-font !important;
+    color: #0073b6;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-size: 24pt;
+}
+
+.salad{
+    font-family: $second-font !important;
+    color: #008a12;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-size: 24pt;
+}
+
+.cereal{
+    font-family: $second-font !important;
+    color: #d8b80096;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-size: 24pt;
+}
+
+.guac{
+    font-family: $second-font !important;
+    color: #0ff15be7;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-size: 24pt;
+}
+
+.egg{
+    font-family: $second-font !important;
+    color: #da9c19;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-size: 24pt;
+}
+
+.pizza{
+    font-family: $second-font !important;
+    color: #d10000;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-size: 24pt;
+}
+

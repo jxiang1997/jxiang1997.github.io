@@ -110,7 +110,7 @@
 .diet_image {
   display: block;
   width: 100%;
-  height: 400px; }
+  height: 500px; }
 
 .container_picture_one:hover .overlay_one {
   opacity: 1; }
@@ -132,33 +132,58 @@
 
 .burger-recipe-title {
   color: #234099;
-  font-family: Georgia, serif; }
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 24pt; }
 
 .caesar-salad-recipe-title {
   color: #2a04ff;
-  font-family: Georgia, serif; }
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 24pt; }
 
 .cereal-recipe-title {
   color: #3a1cff;
-  font-family: Georgia, serif; }
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 24pt; }
 
 .chips-guac-recipe-title {
   color: #617a9e;
-  font-family: Georgia, serif; }
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 24pt; }
 
 .egg-recipe-title {
   color: #875869;
-  font-family: Georgia, serif; }
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 24pt; }
 
 .pizza-recipe-title {
   color: #5a8581;
-  font-family: Georgia, serif; }
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 24pt; }
 
 .ingredients {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16pt;
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 0%;
-  font-family: Georgia, serif; }
+  margin-bottom: 0%; }
 
 /*# sourceMappingURL=images.css.map */

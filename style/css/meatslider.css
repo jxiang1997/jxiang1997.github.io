@@ -12,39 +12,53 @@
   position: relative; }
 
 .slider-title {
-  font-family: Georgia, serif;
+  font-family: "Archivo Narrow", sans-serif;
   color: black;
-  margin-left: 7.5%;
-  font-size: 25px;
-  text-align: center;
-  font-weight: bold; }
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 24pt; }
 
 .slider-subtitle-greenhouse {
-  font-family: Georgia, serif;
+  font-family: "Archivo Narrow", sans-serif;
   color: #0c7408;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
   margin-left: 10%;
-  font-weight: bold; }
+  margin-right: 10%;
+  font-size: 24pt; }
 
 .slider-subtitle-land-use {
-  font-family: Georgia, serif;
+  font-family: "Archivo Narrow", sans-serif;
   color: #533e05;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
   margin-left: 10%;
-  font-weight: bold; }
+  margin-right: 10%;
+  font-size: 24pt; }
 
 .slider-subtitle-water-use {
-  font-family: Georgia, serif;
+  font-family: "Archivo Narrow", sans-serif;
   color: #090ddf;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
   margin-left: 10%;
-  font-weight: bold; }
+  margin-right: 10%;
+  font-size: 24pt; }
 
 .slider-paragraph {
   width: 80%;
-  font-family: Georgia, serif;
+  font-family: "Archivo Narrow", sans-serif;
   margin: auto;
   margin-top: 20px;
   margin-left: 10%;
   font-size: 14px;
-  font-family: Georgia, serif; }
+  font-family: "Archivo Narrow", sans-serif; }
 
 .slider-section {
   vertical-align: baseline;
@@ -55,7 +69,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   color: white;
-  font-family: Georgia, serif;
+  font-family: "Archivo Narrow", sans-serif;
   color: black;
   font-size: 24px;
   font-weight: bolder;
@@ -69,8 +83,7 @@
   margin: auto;
   border: 3px solid black;
   margin-top: 2%;
-  border-radius: 10px;
-  filter: drop-shadow(1px 1px 10px); }
+  border-radius: 10px; }
 
 #beef_carbon {
   width: 0%;

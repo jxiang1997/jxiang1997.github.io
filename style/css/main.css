@@ -1,15 +1,111 @@
+.title {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 62pt; }
+
 .sub-title {
   color: black;
-  font-size: 40px;
-  font-family: Georgia, serif; }
+  font-size: 62pt;
+  font-family: "Julius Sans One", sans-serif !important; }
 
-.sub-title-2 {
-  color: #7e001b;
-  font-size: 40px;
-  font-family: Georgia, serif; }
+.h1 {
+  font-family: "Julius Sans One", sans-serif;
+  margin-top: 20pt;
+  font-size: 62pt; }
+
+.test {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 62pt;
+  margin-top: 10%; }
+
+h2.main-title {
+  color: black;
+  font-size: 62pt;
+  font-family: "Julius Sans One", sans-serif !important;
+  text-transform: uppercase; }
+
+h2.main-title-2 {
+  color: #7e0000;
+  font-size: 62pt;
+  font-family: "Julius Sans One", sans-serif !important;
+  text-transform: uppercase; }
+
+h3.sub-title {
+  font-size: 24pt;
+  font-family: "Archivo Narrow", sans-serif !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+p.main-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16pt;
+  margin-left: 10%;
+  margin-right: 10%; }
 
 .carbon-emission {
   color: white;
   font-size: 40px; }
+
+.cheeseburger {
+  font-family: "Archivo Narrow", sans-serif !important;
+  color: #0073b6;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 24pt; }
+
+.salad {
+  font-family: "Archivo Narrow", sans-serif !important;
+  color: #008a12;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 24pt; }
+
+.cereal {
+  font-family: "Archivo Narrow", sans-serif !important;
+  color: #d8b80096;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 24pt; }
+
+.guac {
+  font-family: "Archivo Narrow", sans-serif !important;
+  color: #0ff15be7;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 24pt; }
+
+.egg {
+  font-family: "Archivo Narrow", sans-serif !important;
+  color: #da9c19;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 24pt; }
+
+.pizza {
+  font-family: "Archivo Narrow", sans-serif !important;
+  color: #d10000;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 24pt; }
 
 /*# sourceMappingURL=main.css.map */
