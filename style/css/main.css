@@ -45,6 +45,13 @@ p.main-text {
   margin-right: 10%;
   color: black !important; }
 
+p.footnotes {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12pt;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black !important; }
+
 p.side-text {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16pt;
